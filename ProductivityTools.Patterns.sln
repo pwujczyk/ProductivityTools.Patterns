@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.TheEssence", "ProductivityTools.Patterns.TheEssence\ProductivityTools.Patterns.TheEssence.csproj", "{F4E3C096-1A7C-4D63-9008-8E6560AC976D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.Builder", "ProductivityTools.Patterns.Builder\ProductivityTools.Patterns.Builder.csproj", "{A3420742-DF0F-425A-942A-DE4A8797EE7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F4E3C096-1A7C-4D63-9008-8E6560AC976D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4E3C096-1A7C-4D63-9008-8E6560AC976D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4E3C096-1A7C-4D63-9008-8E6560AC976D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3420742-DF0F-425A-942A-DE4A8797EE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3420742-DF0F-425A-942A-DE4A8797EE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3420742-DF0F-425A-942A-DE4A8797EE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3420742-DF0F-425A-942A-DE4A8797EE7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
