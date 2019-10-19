@@ -20,6 +20,7 @@ namespace ProductivityTools.Patterns.UnitOfWork
             unitOfWork.Bentonite.Add(bentonite);
             unitOfWork.Commit();
 
+            var element = unitOfWork.Autors.Entities.FirstAsync();
 
             Console.WriteLine("Hello World!");
             Console.ReadLine();
