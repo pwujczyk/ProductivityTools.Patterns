@@ -13,7 +13,6 @@ namespace ProductivityTools.Patterns.Builder
 
             director.Construct(b1);
 
-
             Product p1 = b1.GetResult();
             p1.Show();
 
@@ -21,7 +20,6 @@ namespace ProductivityTools.Patterns.Builder
             Product p2 = b2.GetResult();
             p2.Show();
 
-            // Wait for user
             Console.ReadKey();
         }
     }
