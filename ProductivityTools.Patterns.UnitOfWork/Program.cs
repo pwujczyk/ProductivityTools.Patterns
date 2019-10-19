@@ -12,8 +12,15 @@ namespace ProductivityTools.Patterns.UnitOfWork
             UowDbContext dbContext = new UowDbContext(optionsBuilder.Options);
             dbContext.Database.EnsureCreated();
 
+            var author = new Author() { Name = "Lee Child" };
+            var bentonite = new Bentonite() { Name = "Hard" };
 
-           
+            var unitOfWork = new UnitOfWork(dbContext);
+            unitOfWork.Autors.Add(author);
+            unitOfWork.Bentonite.Add(bentonite);
+            unitOfWork.Commit();
+
+
             Console.WriteLine("Hello World!");
             Console.ReadLine();
         }

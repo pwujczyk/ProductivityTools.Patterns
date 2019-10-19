@@ -10,7 +10,7 @@ namespace ProductivityTools.Patterns.UnitOfWork
     {
         private readonly UowDbContext Context;
         private DbSet<T> dbSet => this.Context.Set<T>();
-        public IQueryable<T> Entities => throw new NotImplementedException();
+        public IQueryable<T> Entities => this.dbSet;
 
         public GenericRepository(UowDbContext context)
         {
@@ -19,7 +19,7 @@ namespace ProductivityTools.Patterns.UnitOfWork
 
         public void Add(T entity)
         {
-            throw new NotImplementedException();
+            this.dbSet.Add(entity);
         }
     }
 }
