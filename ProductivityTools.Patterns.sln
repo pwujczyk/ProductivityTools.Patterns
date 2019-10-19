@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Patterns.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.Observer", "ProductivityTools.Patterns.Observer\ProductivityTools.Patterns.Observer.csproj", "{C4229F98-2B42-42BF-8533-85B03AF6D066}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.Composite", "ProductivityTools.Patterns.Composite\ProductivityTools.Patterns.Composite.csproj", "{C7DCDA8E-6BD1-4EC5-9B06-E3CA59E5DF44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C4229F98-2B42-42BF-8533-85B03AF6D066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4229F98-2B42-42BF-8533-85B03AF6D066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4229F98-2B42-42BF-8533-85B03AF6D066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DCDA8E-6BD1-4EC5-9B06-E3CA59E5DF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DCDA8E-6BD1-4EC5-9B06-E3CA59E5DF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DCDA8E-6BD1-4EC5-9B06-E3CA59E5DF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DCDA8E-6BD1-4EC5-9B06-E3CA59E5DF44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
