@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.UnitOfWork", "ProductivityTools.Patterns.UnitOfWork\ProductivityTools.Patterns.UnitOfWork.csproj", "{FED37D8C-18FB-40AC-866F-7328415623DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.Proxy", "ProductivityTools.Patterns.Proxy\ProductivityTools.Patterns.Proxy.csproj", "{3412E4E1-4890-4D89-AABF-18A172B238DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{FED37D8C-18FB-40AC-866F-7328415623DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FED37D8C-18FB-40AC-866F-7328415623DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FED37D8C-18FB-40AC-866F-7328415623DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3412E4E1-4890-4D89-AABF-18A172B238DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3412E4E1-4890-4D89-AABF-18A172B238DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3412E4E1-4890-4D89-AABF-18A172B238DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3412E4E1-4890-4D89-AABF-18A172B238DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
