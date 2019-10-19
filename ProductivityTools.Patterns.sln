@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.TheEssence", "ProductivityTools.Patterns.TheEssence\ProductivityTools.Patterns.TheEssence.csproj", "{F4E3C096-1A7C-4D63-9008-8E6560AC976D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Patterns.TheEssence", "ProductivityTools.Patterns.TheEssence\ProductivityTools.Patterns.TheEssence.csproj", "{F4E3C096-1A7C-4D63-9008-8E6560AC976D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.Builder", "ProductivityTools.Patterns.Builder\ProductivityTools.Patterns.Builder.csproj", "{A3420742-DF0F-425A-942A-DE4A8797EE7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Patterns.Builder", "ProductivityTools.Patterns.Builder\ProductivityTools.Patterns.Builder.csproj", "{A3420742-DF0F-425A-942A-DE4A8797EE7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.Observer", "ProductivityTools.Patterns.Observer\ProductivityTools.Patterns.Observer.csproj", "{C4229F98-2B42-42BF-8533-85B03AF6D066}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A3420742-DF0F-425A-942A-DE4A8797EE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3420742-DF0F-425A-942A-DE4A8797EE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3420742-DF0F-425A-942A-DE4A8797EE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4229F98-2B42-42BF-8533-85B03AF6D066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4229F98-2B42-42BF-8533-85B03AF6D066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4229F98-2B42-42BF-8533-85B03AF6D066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4229F98-2B42-42BF-8533-85B03AF6D066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
