@@ -13,10 +13,20 @@ namespace ProductivityTools.Patterns.Visitor
             document.Add(new BoldText("Wujczyk"));
 
 
+            //Console.WriteLine("Plain text:");
+            //Console.WriteLine(document.ToPlainText());
+            //Console.WriteLine("HTML text:");
+            //Console.WriteLine(document.ToHtml());
+
             Console.WriteLine("Plain text:");
-            Console.WriteLine(document.ToPlainText());
+            PlainTextVisitor plainTextVisitor = new PlainTextVisitor();
+            document.Accept(plainTextVisitor);
+            Console.WriteLine(plainTextVisitor.Output);
+
             Console.WriteLine("HTML text:");
-            Console.WriteLine(document.ToHtml());
+            HtmlVisitor htmlVisitor = new HtmlVisitor();
+            document.Accept(htmlVisitor);
+            Console.WriteLine(htmlVisitor.Output);
 
             Console.ReadLine();
             

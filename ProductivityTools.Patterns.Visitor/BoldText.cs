@@ -9,14 +9,19 @@ namespace ProductivityTools.Patterns.Visitor
 
         public BoldText(string text) : base(text) { }
 
-        public override string ToHtml()
-        {
-            return $"<b>{Text}</b>";
-        }
+        //public override string ToHtml()
+        //{
+        //    return $"<b>{Text}</b>";
+        //}
 
-        public override string ToPlainText()
+        //public override string ToPlainText()
+        //{
+        //    return Text;
+        //}
+
+        public override void Accept(IVisitor visitor)
         {
-            return Text;
+            visitor.Visit(this);
         }
     }
 }

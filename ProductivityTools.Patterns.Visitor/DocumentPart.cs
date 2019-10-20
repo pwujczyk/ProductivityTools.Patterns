@@ -13,7 +13,8 @@ namespace ProductivityTools.Patterns.Visitor
             this.Text = text;
         }
 
-        public abstract string ToPlainText();
-        public abstract string ToHtml();
+        //public abstract string ToPlainText();
+        //public abstract string ToHtml();
+        public abstract void Accept(IVisitor visitor);
     }
 }

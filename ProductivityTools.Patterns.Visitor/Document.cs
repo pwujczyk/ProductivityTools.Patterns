@@ -13,24 +13,32 @@ namespace ProductivityTools.Patterns.Visitor
             this.documentParts.Add(documentPart);
         }
 
-        public string ToHtml()
+        public void Accept(IVisitor visitor)
         {
-            var s = string.Empty;
             foreach (var item in documentParts)
             {
-                s += item.ToHtml();
+                item.Accept(visitor);
             }
-            return s;
         }
 
-        public string ToPlainText()
-        {
-            var s = string.Empty;
-            foreach (var item in documentParts)
-            {
-                s += item.ToPlainText()+ " ";
-            }
-            return s;
-        }
+        //public string ToHtml()
+        //{
+        //    var s = string.Empty;
+        //    foreach (var item in documentParts)
+        //    {
+        //        s += item.ToHtml();
+        //    }
+        //    return s;
+        //}
+
+        //public string ToPlainText()
+        //{
+        //    var s = string.Empty;
+        //    foreach (var item in documentParts)
+        //    {
+        //        s += item.ToPlainText()+ " ";
+        //    }
+        //    return s;
+        //}
     }
 }
