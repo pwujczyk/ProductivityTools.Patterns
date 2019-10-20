@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.MVP", "ProductivityTools.Patterns.MVP\ProductivityTools.Patterns.MVP.csproj", "{A2129BED-8DD5-455C-BD57-6659134031BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Patterns.EventAggregator", "ProductivityTools.Patterns.EventAggregator\ProductivityTools.Patterns.EventAggregator.csproj", "{9678A4ED-6CAC-447D-B1C3-9828B488DC03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A2129BED-8DD5-455C-BD57-6659134031BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2129BED-8DD5-455C-BD57-6659134031BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2129BED-8DD5-455C-BD57-6659134031BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9678A4ED-6CAC-447D-B1C3-9828B488DC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9678A4ED-6CAC-447D-B1C3-9828B488DC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9678A4ED-6CAC-447D-B1C3-9828B488DC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9678A4ED-6CAC-447D-B1C3-9828B488DC03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
